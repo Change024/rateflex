@@ -2,6 +2,10 @@
 
 RateFlex 是一个面向外贸业务的报价、成本与利润计算工具，由妙搭项目封装为可独立运行和部署的 React 应用。
 
+## 在线使用
+
+打开 [https://change024.github.io/rateflex/](https://change024.github.io/rateflex/) 即可直接使用，无需安装软件。`main` 分支更新后，GitHub Actions 会自动重新部署网站。
+
 ## 功能
 
 - 支持正向计算（销售报价 → 供应商 TP）和反向计算（供应商 TP → 销售报价）
@@ -37,7 +41,7 @@ npm run build
 npm run preview
 ```
 
-普通生产构建输出到 `dist/`，可部署到任意静态网站托管平台。
+普通生产构建输出到 `dist/client/`，可部署到任意静态网站托管平台。
 
 如果需要继续使用妙搭平台原有的分目录构建格式，请在 Bash 环境中运行：
 
